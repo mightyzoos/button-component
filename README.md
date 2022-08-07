@@ -8,3 +8,5 @@ Example:
 Not Implemented:
 - images
 - button shadow
+
+Component [Preview](https://prismatic-speculoos-03b4fe.netlify.app/)
