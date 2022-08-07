@@ -23,8 +23,8 @@ class Button extends HTMLButtonElement {
         let variant = this.getAttribute('data-variant');
         let disableShadow = this.getAttribute('data-disableShadow');
         let disabled = this.getAttribute('data-disabled') === "";
-        //let startIcon = button.getAttribute('startIcon');
-        //let endIcon = button.getAttribute('endIcon');
+        //let startIcon = this.getAttribute('startIcon');
+        //let endIcon = this.getAttribute('endIcon');
         let size = this.getAttribute('data-size') ?  this.getAttribute('data-size') : 'md';
         let color = this.getAttribute('data-color') ? this.getAttribute('data-color') : 'default';
 
@@ -36,9 +36,6 @@ class Button extends HTMLButtonElement {
         if (size) classList += ` button--${size}`;
         if (color) classList += ` button--${color}`;
         button.setAttribute('class', classList);
-
-        //startIcon ?? button.appendChild();
-        //endIcon ?? button.appendChild();
 
         // Define css styles
         style.textContent = `
