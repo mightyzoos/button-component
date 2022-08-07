@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+    </style>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Button Component Sample</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>Buttons</h1>
+            <div id="content">
+                <div>
+                    <h2>Colors</h2>
+                    <custom-button></custom-button>
+                    <custom-button data-color="primary"></custom-button>
+                    <custom-button data-color="secondary"></custom-button>
+                    <custom-button data-color="danger"></custom-button>
+                </div>
+                <div>
+                    <h2>Variants</h2>
+                    <custom-button data-color="primary" data-variant="text"></custom-button>
+                    <custom-button data-color="primary" data-variant="outline"></custom-button>         
+                </div>
+                <div>
+                    <h2>Sizes</h2>
+                    <custom-button data-size="sm"></custom-button>
+                    <custom-button data-size="md"></custom-button>
+                    <custom-button data-size="lg"></custom-button>
+                </div>
+                <div>
+                    <h2>Disabled</h2>
+                    <custom-button data-color="primary" data-disabled></custom-button>
+                    <custom-button data-color="primary" data-variant="text" data-disabled></custom-button>
+                    <custom-button data-color="primary" data-variant="outline" data-disabled></custom-button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/button.js"></script>
+</body>
+
+</html>

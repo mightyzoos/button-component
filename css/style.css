@@ -1,0 +1,17 @@
+body {
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    margin: 1em 2em;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+#content div {
+    margin: 1rem 0;
+}
